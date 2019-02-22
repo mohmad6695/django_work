@@ -59,7 +59,7 @@ class WeatherView(APIView):
 
 		return Response(result_dict)
 
-def index(request):
+'''def index(request):
 
 	start_year= 2000
 	end_year= 2004
@@ -89,4 +89,4 @@ def index(request):
 
 
 
-	return HttpResponse("bla bla bla")
+	return HttpResponse("bla bla bla")'''
